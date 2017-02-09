@@ -4,7 +4,7 @@ Rails.application.routes.draw do
  
   #define routes
   get 'home' => 'pages#home' #override default routes
-  get 'profile' => 'pages#profile'
+  get 'portfolio' => 'pages#portfolio'
   get 'explore' => 'pages#explore'
 
   # The priority is based upon order of creation: first created -> highest priority.

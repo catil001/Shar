@@ -10,9 +10,9 @@ class PagesController < ApplicationController
   def home
   end
 
-  #back end for pages/profile
+  #back end for pages/portfolio
 
-  def profile
+  def portfolio
   end
 
   #back end for pages/explore
