@@ -13,6 +13,13 @@ class PagesController < ApplicationController
   #back end for pages/portfolio
 
   def portfolio
+    #grab the username as the URL :id
+    if (User.find_by_username(params[:id])) 
+      @username = params[:id]
+    else 
+      #redirect to error message (root for now)
+      redirect_to root_path, :notice=> "User not found!"
+    end
   end
 
   #back end for pages/explore
