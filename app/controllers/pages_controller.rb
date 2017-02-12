@@ -8,6 +8,7 @@ class PagesController < ApplicationController
   #back end for pages/home
 
   def home
+    @posts = Post.all
   end
 
   #back end for pages/portfolio
@@ -20,9 +21,12 @@ class PagesController < ApplicationController
       #redirect to error message (root for now)
       redirect_to root_path, :notice=> "User not found!"
     end
+    
+    @posts = Post.all.where("user_id = ?", User.find_by_username(params[:id]).id)
   end
 
-  #back end for pages/explore
-  def explore
+  #back end for pages/notifications not the same as posts
+  def notifications
+    @posts = Post.all
   end
 end
