@@ -17120,3 +17120,977 @@ Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.
 
 Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 75.18.118.140 at 2017-02-12 09:54:21 +0000
 Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 75.18.118.140 at 2017-02-12 09:55:31 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (59.6ms)
+  Rendered layouts/_nav_guest.html.erb (1.5ms)
+  Rendered layouts/_nav.html.erb (4.0ms)
+Completed 200 OK in 610ms (Views: 577.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_in" for 75.18.118.140 at 2017-02-12 09:55:34 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (11.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (31.0ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.3ms)
+Completed 200 OK in 123ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=cYG%2BYmytH0qX0NzHtaztK1f7abV8iuZi2YFu2Jd9uopu%2FjvXN7HFyEX1M05Nq5HUvk1TDXYhHYmFHJGTzBncWg%3D%3D&user%5Bemail%5D=Username1%40user.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Mark+in" for 75.18.118.140 at 2017-02-12 09:55:55 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cYG+YmytH0qX0NzHtaztK1f7abV8iuZi2YFu2Jd9uopu/jvXN7HFyEX1M05Nq5HUvk1TDXYhHYmFHJGTzBncWg==", "user"=>{"email"=>"Username1@user.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Mark in"}
+  Rendered devise/shared/_links.html.erb (3.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.5ms)
+Completed 200 OK in 244ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=DR6laaiSKDGlPFXi0yehZeHaAkn2yw1%2FmTVKBR19rU8SYSDc847ys3cZumsrIN2aCGw48fxg9pTFqLVORhnLnw%3D%3D&user%5Bemail%5D=Username1%40users.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Mark+in" for 75.18.118.140 at 2017-02-12 09:56:05 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DR6laaiSKDGlPFXi0yehZeHaAkn2yw1/mTVKBR19rU8SYSDc847ys3cZumsrIN2aCGw48fxg9pTFqLVORhnLnw==", "user"=>{"email"=>"Username1@users.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Mark in"}
+  Rendered devise/shared/_links.html.erb (3.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.6ms)
+Completed 200 OK in 215ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=KCD4lwzHOHWRv42Csi9teXOLGnuqGY%2FIshFliXlxaJk3X30iV9vi90OaYgtKKBGGmj0gw6CydCPujJrCIhUOSQ%3D%3D&user%5Bemail%5D=Username2%40users.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Mark+in" for 75.18.118.140 at 2017-02-12 09:56:23 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KCD4lwzHOHWRv42Csi9teXOLGnuqGY/IshFliXlxaJk3X30iV9vi90OaYgtKKBGGmj0gw6CydCPujJrCIhUOSQ==", "user"=>{"email"=>"Username2@users.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Mark in"}
+  Rendered devise/shared/_links.html.erb (3.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (1.6ms)
+Completed 200 OK in 264ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+  [1m[36mUser Load (2.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=4W5jm1%2F9LFiYn78YoamBAcIq9bHICghR018dLF3l9uP%2BEeYuBOH22kq6UJFZrv3%2BK5zPCcKh87qPwuJnBoGQMw%3D%3D&user%5Bemail%5D=Username2%40user.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Mark+in" for 75.18.118.140 at 2017-02-12 09:57:09 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4W5jm1/9LFiYn78YoamBAcIq9bHICghR018dLF3l9uP+EeYuBOH22kq6UJFZrv3+K5zPCcKh87qPwuJnBoGQMw==", "user"=>{"email"=>"Username2@user.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Mark in"}
+  Rendered devise/shared/_links.html.erb (6.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.2ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.5ms)
+Completed 200 OK in 225ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=%2FkalPKOBSf6YeymywarH%2BE%2FPXHz6BlkmbFgP4E7dO0jhOSCJ%2BJ2TfEpexjs5rbsHpnlmxPCtos0wxfCrFbldmA%3D%3D&user%5Bemail%5D=username2%40user.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Mark+in" for 75.18.118.140 at 2017-02-12 09:57:41 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/kalPKOBSf6YeymywarH+E/PXHz6BlkmbFgP4E7dO0jhOSCJ+J2TfEpexjs5rbsHpnlmxPCtos0wxfCrFbldmA==", "user"=>{"email"=>"username2@user.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Mark in"}
+  Rendered devise/shared/_links.html.erb (4.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 200 OK in 245ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 75.18.118.140 at 2017-02-12 09:58:02 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 76ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?utf8=%E2%9C%93&authenticity_token=J0fBq0q%2Fs8JQr4GZ4n96kim9ly6jt61jFb9%2BjfvlM904OEQeEaNpQIKKbhAaeAZtwAutlqkcVohJIoHGoIFVDQ%3D%3D&user%5Busername%5D=catil001&user%5Bemail%5D=claudio%40test.com&user%5Bpassword%5D=[FILTERED]&user%5Bpassword_confirmation%5D=[FILTERED]&commit=Sign+up" for 75.18.118.140 at 2017-02-12 09:58:35 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J0fBq0q/s8JQr4GZ4n96kim9ly6jt61jFb9+jfvlM904OEQeEaNpQIKKbhAaeAZtwAutlqkcVohJIoHGoIFVDQ==", "user"=>{"username"=>"catil001", "email"=>"claudio@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.6ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 75.18.118.140 at 2017-02-12 17:30:08 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (75.5ms)
+  Rendered layouts/_nav_guest.html.erb (1.3ms)
+  Rendered layouts/_nav.html.erb (4.8ms)
+Completed 200 OK in 774ms (Views: 746.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_in" for 75.18.118.140 at 2017-02-12 17:30:11 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (13.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (37.2ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 222ms (Views: 219.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=DLk%2BrVr1q3%2F8WTyRp8pEefdMlJCrbwEOTj%2BMS%2BhowwQTxrsYAelx%2FS580xhfzTiGHvquKKHE%2BuUSonMAswyl1A%3D%3D&user%5Bemail%5D=username1%40user.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Mark+in" for 75.18.118.140 at 2017-02-12 17:30:33 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DLk+rVr1q3/8WTyRp8pEefdMlJCrbwEOTj+MS+howwQTxrsYAelx/S580xhfzTiGHvquKKHE+uUSonMAswyl1A==", "user"=>{"email"=>"username1@user.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Mark in"}
+  Rendered devise/shared/_links.html.erb (3.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.2ms)
+Completed 200 OK in 218ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 75.18.118.140 at 2017-02-12 17:34:34 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (9.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (53.5ms)
+  Rendered layouts/_nav_guest.html.erb (1.2ms)
+  Rendered layouts/_nav.html.erb (3.7ms)
+Completed 200 OK in 523ms (Views: 494.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/sign_in" for 75.18.118.140 at 2017-02-12 17:34:45 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RDa4vKTtM+M8V0YY6I8WN3keC1DBRTTSskDAXG/y2zxbST0J//HpYe5yqZEQiGrIkKgx6Mvuzznu3T8XNJa97A==", "user"=>{"email"=>"username1@user.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Mark in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "username1@user.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2017-02-12 01:05:36.480285"], ["current_sign_in_at", "2017-02-12 17:34:45.858106"], ["last_sign_in_ip", "70.147.213.234"], ["current_sign_in_ip", "75.18.118.140"], ["sign_in_count", 3], ["updated_at", "2017-02-12 17:34:45.860527"], ["id", 5]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+Redirected to https://shar1-catil007.c9users.io/
+Completed 302 Found in 264ms (ActiveRecord: 10.5ms)
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 17:34:45 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (1.1ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 75.18.118.140 at 2017-02-12 17:34:51 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/home.html.erb within layouts/application (6.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 66ms (Views: 55.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/notifications" for 75.18.118.140 at 2017-02-12 17:34:54 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#notifications as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/notifications.html.erb within layouts/application (1.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 55ms (Views: 53.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/Username1" for 75.18.118.140 at 2017-02-12 17:34:56 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#portfolio as HTML
+  Parameters: {"id"=>"Username1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Username1"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Username1"]]
+  Rendered components/_post_form.html.erb (1.5ms)
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE (user_id = 5)  ORDER BY "posts"."created_at" DESC[0m
+  Rendered pages/portfolio.html.erb within layouts/application (7.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 64ms (Views: 58.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/edit" for 75.18.118.140 at 2017-02-12 17:35:01 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (9.6ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.3ms)
+Completed 200 OK in 81ms (Views: 78.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 75.18.118.140 at 2017-02-12 17:38:41 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/home.html.erb within layouts/application (9.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (2.0ms)
+  Rendered layouts/_nav.html.erb (47.1ms)
+Completed 200 OK in 511ms (Views: 485.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/user/Username1" for 75.18.118.140 at 2017-02-12 17:38:48 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#portfolio as HTML
+  Parameters: {"id"=>"Username1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Username1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Username1"]]
+  Rendered components/_post_form.html.erb (18.8ms)
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" WHERE (user_id = 5)  ORDER BY "posts"."created_at" DESC
+  Rendered pages/portfolio.html.erb within layouts/application (21.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 94ms (Views: 83.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/edit" for 75.18.118.140 at 2017-02-12 17:39:01 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (29.3ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.1ms)
+Completed 200 OK in 92ms (Views: 88.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 75.18.118.140 at 2017-02-12 17:41:33 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/home.html.erb within layouts/application (10.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (1.6ms)
+  Rendered layouts/_nav.html.erb (49.5ms)
+Completed 200 OK in 498ms (Views: 465.2ms | ActiveRecord: 2.1ms)
+
+
+Started DELETE "/users/sign_out" for 75.18.118.140 at 2017-02-12 17:41:36 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XODd+4lbXrrG8EHa6CvVUzaTjqg1L2eS+83FJeLL+Ip+Px9Fju2qY/ma/ijIlI4GdDy29aAD2vO0ZU1FV+PHVg=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to https://shar1-catil007.c9users.io/
+Completed 302 Found in 32ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 17:41:36 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_nav_guest.html.erb (0.7ms)
+  Rendered layouts/_nav.html.erb (4.7ms)
+Completed 200 OK in 67ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 17:41:50 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.5ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 17:41:51 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.2ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 17:42:06 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.7ms)
+  Rendered layouts/_nav.html.erb (1.7ms)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 75.18.118.140 at 2017-02-12 17:43:03 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (29.7ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 92ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 75.18.118.140 at 2017-02-12 17:43:38 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 89ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eaa2760241b4fa223f0e94da36ccf6fe29c185e12ee0266f9f441baaaaf8a431.css?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 75.18.118.140 at 2017-02-12 17:43:39 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 75.18.118.140 at 2017-02-12 17:44:25 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_nav_guest.html.erb (0.7ms)
+  Rendered layouts/_nav.html.erb (1.7ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eaa2760241b4fa223f0e94da36ccf6fe29c185e12ee0266f9f441baaaaf8a431.css?body=1" for 75.18.118.140 at 2017-02-12 17:44:25 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:25 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:25 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:25 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:25 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:25 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:25 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 75.18.118.140 at 2017-02-12 17:44:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_in" for 75.18.118.140 at 2017-02-12 17:46:26 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_nav_guest.html.erb (0.7ms)
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 200 OK in 62ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eaa2760241b4fa223f0e94da36ccf6fe29c185e12ee0266f9f441baaaaf8a431.css?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 75.18.118.140 at 2017-02-12 17:46:27 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/users/sign_in" for 75.18.118.140 at 2017-02-12 17:46:48 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CKO3x8ZbTu0hB9y5kW0uPx90QjXde6Lqb81FZz8rglH7DZvKZ6oMnUD9U2NOUeb48QtITmORu8kXLfHcUs7Vkg==", "user"=>{"email"=>"Username1@user.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Mark in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "username1@user.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2017-02-12 17:34:45.858106"], ["current_sign_in_at", "2017-02-12 17:46:48.514360"], ["last_sign_in_ip", "75.18.118.140"], ["sign_in_count", 4], ["updated_at", "2017-02-12 17:46:48.515707"], ["id", 5]]
+  [1m[35m (10.5ms)[0m  commit transaction
+Redirected to https://shar1-catil007.c9users.io/
+Completed 302 Found in 168ms (ActiveRecord: 11.3ms)
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 17:46:48 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for 75.18.118.140 at 2017-02-12 17:47:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Pc1Cv6OvSNe8/GOK9AUn+RtT7hYZcUETBIhVDsqxfJY9QjIkjZtSMDk2Lh19I2dgQ8CNFLmZmsmZrzbGVaym1w=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://shar1-catil007.c9users.io/
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 17:47:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav_guest.html.erb (0.7ms)
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 200 OK in 46ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 75.18.118.140 at 2017-02-12 17:47:29 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.1ms)
+Completed 200 OK in 60ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 75.18.118.140 at 2017-02-12 17:47:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.1ms)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 75.18.118.140 at 2017-02-12 17:47:42 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Z7XXsa08b6JoKMFooAiQgAepUOmp03g/kJE8xOCP8aSO1MD3hQMEcvjwneT0R4YVZtM7yqSpcJttj1EGgp6OA==", "user"=>{"email"=>"Username2@user.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Mark in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "username2@user.com"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2017-02-12 17:47:42.390448"], ["current_sign_in_ip", "75.18.118.140"], ["sign_in_count", 2], ["updated_at", "2017-02-12 17:47:42.391841"], ["id", 6]]
+  [1m[35m (11.2ms)[0m  commit transaction
+Redirected to https://shar1-catil007.c9users.io/
+Completed 302 Found in 160ms (ActiveRecord: 11.9ms)
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 17:47:42 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.2ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/user/Username2" for 75.18.118.140 at 2017-02-12 17:47:45 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#portfolio as HTML
+  Parameters: {"id"=>"Username2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Username2"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Username2"]]
+  Rendered components/_post_form.html.erb (1.5ms)
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE (user_id = 6)  ORDER BY "posts"."created_at" DESC
+  Rendered pages/portfolio.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 54ms (Views: 49.2ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/users/sign_out" for 75.18.118.140 at 2017-02-12 17:47:51 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"0okvXnMz0F53Ik7fEudPfy8tG+lgLkzk8Y0VxaQtuJJHcz3c2F8biU8hEH/XFPCT1B+SvMoeWG/z5S6/Iw3+qQ=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://shar1-catil007.c9users.io/
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 17:47:51 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.5ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 75.18.118.140 at 2017-02-12 17:47:53 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.1ms)
+Completed 200 OK in 67ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 75.18.118.140 at 2017-02-12 17:48:02 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r92SsSxzNvdYU5G43tQWEbcGkGlmb7EOkZOXt16SY7aWVXQwoyMy008iR8z3XThcAECKtrMkTdcTN7DOJ/EaSQ==", "user"=>{"email"=>"Username1@user.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Mark in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "username1@user.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2017-02-12 17:46:48.514360"], ["current_sign_in_at", "2017-02-12 17:48:02.966952"], ["sign_in_count", 5], ["updated_at", "2017-02-12 17:48:02.968165"], ["id", 5]]
+  [1m[35m (10.3ms)[0m  commit transaction
+Redirected to https://shar1-catil007.c9users.io/
+Completed 302 Found in 185ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 17:48:03 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/Username1" for 75.18.118.140 at 2017-02-12 17:48:05 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#portfolio as HTML
+  Parameters: {"id"=>"Username1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Username1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Username1"]]
+  Rendered components/_post_form.html.erb (0.7ms)
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE (user_id = 5)  ORDER BY "posts"."created_at" DESC
+  Rendered pages/portfolio.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 52ms (Views: 49.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/home" for 75.18.118.140 at 2017-02-12 17:48:08 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 75.18.118.140 at 2017-02-12 18:01:08 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/home.html.erb within layouts/application (11.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (2.4ms)
+  Rendered layouts/_nav.html.erb (56.1ms)
+Completed 200 OK in 583ms (Views: 544.8ms | ActiveRecord: 1.7ms)
+
+
+Started DELETE "/users/sign_out" for 75.18.118.140 at 2017-02-12 18:01:12 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"0AvzO6hfAzA0lukLd/RzyMG1sj1xisiOxfCsQ3Lqk3zQUfdLIFSUGtEgxFQqgpc3uJc/lCkGL/sMXXjfxnipdQ=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://shar1-catil007.c9users.io/
+Completed 302 Found in 31ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 18:01:12 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_nav_guest.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 18:55:21 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_nav_guest.html.erb (0.8ms)
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 535ms (Views: 502.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 75.18.118.140 at 2017-02-12 18:55:21 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (13.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (95.2ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 200 OK in 237ms (Views: 179.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:21 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:21 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:21 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:21 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-eaa2760241b4fa223f0e94da36ccf6fe29c185e12ee0266f9f441baaaaf8a431.css?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 75.18.118.140 at 2017-02-12 18:55:22 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.3ms)
+Completed 200 OK in 72ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.7ms)
+Completed 200 OK in 76ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-eaa2760241b4fa223f0e94da36ccf6fe29c185e12ee0266f9f441baaaaf8a431.css?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 75.18.118.140 at 2017-02-12 18:56:30 +0000
+Cannot render console from 75.18.118.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255

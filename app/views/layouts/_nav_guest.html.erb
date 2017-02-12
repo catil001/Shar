@@ -16,18 +16,18 @@
       <div class="form-group">
         <form class="navbar-form navbar-right">
           <input type="text" class="form-control" placeholder="Discover...">
+        </form>
       </div>
     </ul>
     <img class="navbar-brand" src="/Markt_W.png">
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-
-      </ul>
+    
       <ul class="nav navbar-nav navbar-right">
+     
+          <li><%= link_to('Sign Up', new_user_registration_path) %></li>
+          <li><%= link_to('Mark In', new_user_session_path) %></li>
        
-        <li><%= link_to('Sign Up', new_user_registration_path) %></li>
-        <li><%= link_to('Mark In', new_user_session_path) %></li>
+    
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
