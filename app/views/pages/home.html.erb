@@ -14,7 +14,7 @@
     </div>
     <div class="col-xs-6">
         <%= render '/components/post_form' %> <br><br>
-        <center>
+       
         <% for @p in @posts %>
             <div class="panel panel-default post-panel">
               <div class="panel-body row">
@@ -33,13 +33,13 @@
                     <span class="glyphicon glyphicon-retweet g-links" aria-hidden="true"></span>
                     <span class="glyphicon glyphicon-heart g-links" aria-hidden="true"></span>
                     <span class="glyphicon glyphicon-option-horizontal g-links" aria-hidden="true"></span>
-                    <a href="">View conversation</a>
+                    <span class = "convoview"><a href="">View conversation</a></span>
                   </p>
                 </div>
               </div>
             </div>
         <% end %>
-        </center>
+       
     </div>
     <div class="col-xs-3">
         <div class= "panel panel-default">
