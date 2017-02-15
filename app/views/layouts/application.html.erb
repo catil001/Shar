@@ -8,6 +8,12 @@
 </head>
 <body>
 <%= render '/layouts/nav' %>
+<% if params[:id] != nil %>
+  <% @url = '/user/' + params[:id] %>
+  <% if current_page?(@url) %>
+    <img src="/Marktplace.jpg" class="portfoilio-banner">
+  <% end %>
+<% end %>
 <div class="container">
     <span class="notice"><%= notice %></span>
     <span class="alert"><%= alert %></span>
