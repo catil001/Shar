@@ -14,15 +14,19 @@
     </div>
     <ul class="nav navbar-nav navbar-left">
       <div class="form-group">
+        
         <form class="navbar-form navbar-right">
           <input type="text" class="form-control" placeholder="Discover...">
+          
         </form>
+        
       </div>
     </ul>
-    <img class="navbar-brand" src="/Markt_W.png">
+    <a href="/"><img class="navbar-brand" src="/Markt_W.png"></a>
     <!-- Collect the nav links, forms, and other content for toggling -->
     
       <ul class="nav navbar-nav navbar-right">
+         <li><a href="/collections ">Collections</a></li>
      
           <li><%= link_to('Sign Up', new_user_registration_path) %></li>
           <li><%= link_to('Mark In', new_user_session_path) %></li>

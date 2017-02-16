@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   #define routes
   get '/home' => 'pages#home' #override default routes
   get '/user/:id' => 'pages#portfolio'
-  get '/notifications' => 'pages#notifications' #change this one for Markt go to controllers/pages_controller.rb
+  get '/collections' => 'pages#collections' #change this one for Markt go to controllers/pages_controller.rb
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

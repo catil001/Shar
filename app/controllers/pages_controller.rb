@@ -26,10 +26,14 @@ class PagesController < ApplicationController
     @posts = Post.all.where("user_id = ?", User.find_by_username(params[:id]).id)
     
     @newPost = Post.new
+    
+    @toFollow = User.all.last(5)
   end
 
   #back end for pages/notifications not the same as posts
-  def notifications
+  def collections
     @posts = Post.all
+    @newPost = Post.new
+    @toFollow = User.all.last(5)
   end
 end

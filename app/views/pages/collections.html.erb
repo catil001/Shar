@@ -1,18 +1,30 @@
 <div class="row">
     <div class="col-xs-3">
-      <div class="col-sm-12" style="margin-top: -200px;">
-            <img src="/Avatar.jpg" height="200px" width="200px" class="rounded-img">
-      </div>
-      <div class="col-sm-12">
-        <h3 style="font-weight: bold;"><%= params[:id] %></h3>
-        <p>
-          Full-Length Project-Based Tutorials on Engineering, Business & Design. Also on YouTube <a href="http://www.youtube.com/devfactor">http://www.youtube.com/devfactor</a>
-        </p>
-      </div>
+        
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h5 style="color: grey; font-size: 125%;">Explore</h5>
+            <p style="opacity: 0.5; font-size: 90%;">
+              This page aggregates posts from ALL users. This means that you can find new people to follow,
+              and your posts will also appear here so other people can see your opinions and interests and follow you
+              if they chose.
+            </p>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+             <h5 style="color: grey; font-size: 125%;">Trends</h5>
+              <a href="">#Trend #1</a><br>
+                <span style="color: grey;">31k Posts</span><br><br>
+              <a href="">#Trend #2</a><br>
+                <span style="color: grey;">25k Posts</span><br><br>
+              <a href="">#Trend #3</a><br>
+                <span style="color: grey;">16k Posts</span><br><br>
+          </div>
+        </div>
     </div>
-    
     <div class="col-xs-6">
-      <%= render '/components/post_form' %><br><br>
+        <%= render '/components/post_form' %><% if user_signed_in? %> <br> <% end %> <br>
         
         <% for @p in @posts %>
         <div class="panel panel-default post-panel">
@@ -28,13 +40,14 @@
             
             <div class="col-sm-12">
               <p class="post-links">
-                    <img src="/Buy_Markt.png" class="rounded-img g-links" height="20px" width="20px"></img>
-                    <img src="/Repost_Estra.png" class="rounded-img g-links" height="20px" width="20px"></img>
-                    <img src="/Favorite_Estra.jpg" class="rounded-img g-links" height="20px" width="20px"></img>
-                    <img src="/Desc_Markt.png" class="rounded-img g-links" height="20px" width="20px"></img>
-                <span class = "convoview"><a href="">View conversation</a></span>
+                <span class="glyphicon glyphicon-comment g-links" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-retweet g-links" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-heart g-links" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-option-horizontal g-links" aria-hidden="true"></span>
+                <a href="">View conversation</a>
               </p>
             </div>
+            
           </div>
         </div>
         <% end %>
@@ -48,9 +61,7 @@
           </div>
         </div>
     </div>
-
-      <div class="col-xs-3">
-        <%= render '/components/follow_button', :user => User.find_by_username(params[:id]) %>
+    <div class="col-xs-3">
         <div class="panel panel-default">
           <div class="panel-body">
              <h5 style="color: grey; font-size: 125%;">Who to follow</h5>
@@ -59,19 +70,13 @@
              <% end %>
           </div>
         </div>
-
         
         <div class="panel panel-default">
           <div class="panel-body">
-             <h5 style="color: grey; font-size: 125%;">Trends</h5>
-              <a href="">#Trend #1</a><br>
-                <span style="color: grey;">31k Posts</span><br><br>
-              <a href="">#Trend #2</a><br>
-                <span style="color: grey;">25k Posts</span><br><br>
-              <a href="">#Trend #3</a><br>
-                <span style="color: grey;">16k Posts</span><br><br>
+            <p style="opacity: 0.5; font-size: 90%;">© 2017 Markt  About  Help  Terms  Privacy  Cookies  Ads Info  Brand  Blog  Status  Apps  Jobs  Advertise  Businesses  Media  Developers</p>
           </div>
         </div>
-   
+        
+        
     </div>
 </div>
