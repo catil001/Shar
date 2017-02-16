@@ -1,6 +1,10 @@
 <! We'll render different nav bars depending on the status of the user>
 <% if !user_signed_in? %>
-  <%= render '/layouts/nav_guest' %>
-<% else %>
+  <% if current_page?('/collections') %>
+    <%= render '/layouts/nav_guest_collections' %>
+  <% else %>
+    <%= render '/layouts/nav_guest' %>
+  <% end %>
+<% else%>
   <%= render '/layouts/nav_user' %>
 <% end %>

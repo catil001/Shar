@@ -12,17 +12,17 @@
             -o-background-size: cover;
             background-size: cover;
       </style>
-<h2>Mark in</h2>
+<center><h2>Mark In</h2></center>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="field">
     <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true %>
+    <%= f.email_field :email, autofocus: true, class: "form-control" %>
   </div>
 
   <div class="field">
     <%= f.label :password %><br />
-    <%= f.password_field :password, autocomplete: "off" %>
+    <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
   </div>
 
   <% if devise_mapping.rememberable? -%>
@@ -32,10 +32,10 @@
     </div>
   <% end -%>
 
-  <div class="actions" style="color:black;">
-    <%= f.submit "Mark in" %>
+  <div class="actions">
+    <center>
+      <%= f.submit "Mark in", class: "btn btn-primary" %>
+    </center>
   </div>
 <% end %>
-
-<%= render "devise/shared/links" %>
 </div>
