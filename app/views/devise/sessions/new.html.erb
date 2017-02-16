@@ -1,3 +1,17 @@
+<div class="mark-in-content">
+      <style>
+        body {
+            background: linear-gradient( /* somewhat transparent film on top of the BG to make it look darker. */
+                rgba(0,0,0, 0.6),
+                rgba(0,0,0, 0.6)
+                ), url("/Start.jpg") no-repeat center center fixed
+            
+            ; /* only display once, center horizontal and vertical, dont let scroll change position. */
+            -webkit-background-size: cover;
+            -moz-background-size: cover; /* cover the whole html element. */
+            -o-background-size: cover;
+            background-size: cover;
+      </style>
 <h2>Mark in</h2>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
@@ -18,9 +32,10 @@
     </div>
   <% end -%>
 
-  <div class="actions">
+  <div class="actions" style="color:black;">
     <%= f.submit "Mark in" %>
   </div>
 <% end %>
 
 <%= render "devise/shared/links" %>
+</div>
