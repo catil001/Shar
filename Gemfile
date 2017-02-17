@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 #We'll be using the devise Gem for authentication and user accounts.
 gem 'devise'
 
-
+# to add images to posts
+gem "paperclip", "~> 5.0.0"
 #for twitter UI component, navbar
 gem 'bootstrap-sass', '~> 3.3.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
