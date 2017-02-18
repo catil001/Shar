@@ -9,7 +9,8 @@ class PostsController < ApplicationController
         @post.user_id = current_user.id
         respond_to do |f|
             if (@post.save)
-                f.html {redirect_to "/", notice: "Post Markted!" }
+                
+                f.html {redirect_to "/user/#{current_user.username}", notice: ""}
             else
                 f.html { redirect_to "/", notice: "Error: Post not Markted" }
             end
